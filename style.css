@@ -34,6 +34,10 @@ ul {
   list-style: none;
 }
 
+li {
+  display: flex;
+}
+
 ul li::before {
   content: "\2022";
   margin-right: 0.6rem;
